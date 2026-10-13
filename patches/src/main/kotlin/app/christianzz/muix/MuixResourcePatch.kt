@@ -31,23 +31,23 @@ val muixResourcePatch = resourcePatch(
 ) {
     // Options (documented Morphe API style)
     val accentColor by stringOption(
-        name = "Accent color",
+        key = "accentColor",
         default = "#FF0A84FF"
     )
     val cornerRadius by stringOption(
-        name = "Corner radius (dp)",
+        key = "cornerRadius",
         default = "16"
     )
     val enableRoundedDrawables by booleanOption(
-        name = "Inject rounded drawables",
+        key = "enableRoundedDrawables",
         default = true
     )
     val overridePrimaryColors by booleanOption(
-        name = "Override primary / accent colors",
+        key = "overridePrimaryColors",
         default = true
     )
     val applySurfaceColors by booleanOption(
-        name = "Apply surface / background colors",
+        key = "applySurfaceColors",
         default = true
     )
 
