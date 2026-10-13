@@ -27,7 +27,7 @@ val muixResourcePatch = resourcePatch(
     description = "Applies a HyperOS / MIUI-inspired visual language (MUIX) to common Material and AppCompat resources. " +
         "Rounded surfaces, modern accents, clean light/dark surfaces. Universal (no package restriction). " +
         "Does not fully restyle Compose-heavy or custom-drawn UIs.",
-    default = true
+    default = false
 ) {
     // Options (documented Morphe API style)
     val accentColor by stringOption(
